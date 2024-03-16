@@ -1,0 +1,136 @@
+* {
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 246%;
+}
+
+.logo__alura {
+    width: Hug (120px);
+    height: Hug (48px);
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+
+main {
+    width: 1440px;
+    height: 700px;
+    top: 622px;
+    left: -2277px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.secao__um {
+    height: 100%;
+}
+
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+
+.informacao {
+    width: Hug (252px);
+    height: Hug (18px);
+    top: 851px;
+    left: 240px;
+    gap: 8px;
+}
+
+
+
+.informacao__aviso {
+    width: 228px;
+    height: 18px;
+    opacity: 0.8px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(69, 86, 95, 1);
+
+
+}
+::placeholder {color: #0a3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+
+
+.mensagem {
+    width: 400px;
+    height: 477px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background: white;
+    /* background-image: url(/Decodificador\ de\ texto/img_lupa.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.config__btn__copiar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn__copiar {
+    width: Fixed (336px);
+    height: Hug (67px);
+    top: 885px;
+    left: 1032px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    color: rgba(10, 56, 113, 1);
+    background-color:rgba(216, 223, 232, 1);
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+} 
+
+.btn__criptografar {
+    width: Fixed (328px);
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: rgba(10, 56, 113, 1);
+    color: white; 
+}
+
+.btn__descriptografar {
+    width: Fixed (328px);
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    gap: 8px;
+    background-color:rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+}
+
+.rodape {
+    text-align: center;
+    color: rgba(10, 56, 113, 1);
+}
